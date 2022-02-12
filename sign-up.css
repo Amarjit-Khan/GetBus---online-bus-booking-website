@@ -1,0 +1,247 @@
+.container_signup{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(243, 0, 0);
+    align-items: center;
+    width: 685px;
+    height: 454px;
+    padding: 52px 32px 32px 32px;
+    margin: 32px 32px 32px 32px;
+    background-color: #fffafa96;
+    box-sizing: border-box;
+}
+
+.container_login{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(243, 0, 0);
+    align-items: center;
+    justify-content: center;
+    width: 685px;
+    height: 454px;
+    padding: 52px 32px 32px 32px;
+    margin: 32px 32px 32px 32px;
+    background-color: #fffafa96;
+    box-sizing: border-box;
+}
+
+.container_pssngr_2{
+    float: right;
+    background-color: #eadbdb;
+    padding: 15px 20px 16px 20px;
+    margin: 3px 3px 43px 3px;
+}
+
+.inputclass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input#username_signup_id{
+    width: 311px;
+    font-size: 1rem;
+    height: 33px;
+    border-radius: 6px;
+}
+input#email_signup_id{
+    font-size: 1rem;
+    height: 33px;
+    border-radius: 6px;
+    width: 275px;
+}
+input#contact_signup_id{
+    width: 328px;
+    font-size: 1rem;
+    height: 33px;
+    border-radius: 6px;
+}
+
+input#pass-signup_id{
+    width: 316px;
+    font-size: 1rem;
+    height: 33px;
+    border-radius: 6px;
+}
+input#cpass_signup_id{
+    width: 394px;;
+    font-size: 1rem;
+    height: 33px;
+    border-radius: 6px;
+}
+
+input#email_login_id{
+    border: 2px solid brown;
+    width: 311px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input#pass_login_id{
+    border: 2px solid brown;
+    width: 348px;
+    height: 37px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+input.btn_signup{
+    font-size: 1rem;
+    width: 117px;
+    height: 39px;
+    cursor: pointer;
+    margin: 5px 5px 5px 5px;
+    border-radius: 5px;
+    background-color: #dfa33547;
+    top: -42px;
+    position: relative;
+}
+input.btn_signup:hover{
+    background-color: rgb(219, 164, 63);
+}
+
+input.btn_login{
+    font-size: 1rem;
+    width: 153px;
+    height: 38px;
+    background-color: #87cefa40;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input.btn_login:hover{
+    background-color: rgb(133, 161, 238);
+}
+
+u{
+    font-size: 2rem;
+    color: wheat;
+}
+.bg{
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+h1{
+    background-color: black;
+    opacity: 0.6;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+}
+
+/* passenger info page css here. */
+
+.container_pssngr_2 {
+    float: right;
+    background-color: #eadbdbb8;
+    padding: 47px 20px 37px 20px;
+    margin: 31px 43px 36px 26px;
+    height: fit-content;
+    border-radius: 19px;
+}
+
+.container_pssngr_1 {
+    float: left;
+    background-color: #f0e2cdc7;
+    padding: 47px 20px 16px 20px;
+    margin: 31px 26px 36px 43px;
+    height: fit-content;
+    border-radius: 19px;
+}
+
+input {
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+input#num_id {
+    background-color: white;
+    width: 297px;
+    height: 38px;
+    border: 1px solid #a8a3a3;
+}
+
+input#gtrws_id {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 110px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input#gtrws_id:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+input#delrw_id {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 132px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input#delrw_id:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+input.btn_pssngr {
+    background-color: lightblue;
+    padding: 2px 2px 2px 2px;
+    width: 222px;
+    border: none;
+    height: 34px;
+    box-shadow: 6px 6px 13px black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+input.btn_pssngr:hover {
+    background-color: #03a9f4ba;
+    box-shadow: none;
+}
+
+td {
+    font-size: 15px;
+    padding: 2px 5px 2px 6px;
+}
+
+table#t1 {
+    margin: auto;
+    border: 1px solid red;
+    width: -webkit-fill-available;
+}
+
+.bg1 {
+    height: fit-content;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+input {
+    font-size: 14px;
+    padding: 2px 2px 2px 2px;
+    width: 110px;
+    height: 34px;
+    border-radius: 5px;
+}

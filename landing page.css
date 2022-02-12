@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.leftcontainer{
+    float: left;
+    margin: 119px 32px 32px 153px;
+    padding: 32px 32px 32px 32px;
+    border: 2px solid red;
+    border-radius: 12px;
+    width: 490px;
+    height: 410px;
+    box-sizing: border-box;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.rightcontainer{
+    float: right;
+    margin: 89px 129px 32px 32px;
+    padding: 32px 32px 32px 32px;
+    border: 2px solid red;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+input, 
+select{
+    border-radius: 5px;
+    height: 46px;
+    text-align: center;
+    font-size: 1.23rem;
+}
+
+table{
+    width: 567px;
+    border: 4px solid rgb(225, 65, 92);
+}
+h1{
+    padding-top: 26px;
+    font-size: 3.00rem;
+}
+
+submit:hover {
+    background-color: silver;
+}
+.sub{
+    width: 115px;
+    float: right;
+    margin: 79px 384px 32px 32px;
+}

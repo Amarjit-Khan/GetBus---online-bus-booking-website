@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href="sign-up.css" rel="stylesheet">
+</head>
+<script>
+    function validate() {
+        var n = document.getElementById('email_id').value;
+        var p = document.getElementById('pass_id').value;
+
+    }
+</script>
+
+<body>
+    <img class="bg"
+        src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80"
+        alt="bus">
+    <center>
+        <h1>
+            <u>Login page</u>
+        </h1>
+        <div class="container_login">
+            <form autocomplete="off" action="login_page.php" method="post" onsubmit="return validate()">
+                email: <input type="email" name="eml" id="email_login_id" required>
+                <br><br>
+                password: <input type="password" name="pass" id="pass_login_id" required>
+                <div class="btnn"><br><br>
+                    <input class="btn_login" type="submit" value="LOGIN">
+                </div>
+            </form>
+            <br><br>
+            <a href="sign-up.html">New user-Sign Up</a>
+        </div>
+    </center>
+</body>
+
+</html>

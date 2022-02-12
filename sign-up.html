@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <link href="sign-up.css" rel="stylesheet">
+</head>
+<script>
+    function validate() {
+        var u, e, c, p, cp;
+        u = document.getElementById('username_signup_id').value;
+        e = document.getElementById('email_signup_id').value;
+        c = document.getElementById('contact_signup_id').value;
+        p = document.getElementById('pass-signup_id').value;
+        cp = document.getElementById('cpass_signup_id').value;
+        if (isNaN(c)) {
+            alert("Please enter a valid number");
+            return false;
+        }
+
+        else if (p == cp) {
+            return true;
+        }
+        else {
+            return false;
+        }
+
+    }
+</script>
+
+<body>
+    <img class="bg" src="https://d1e00ek4ebabms.cloudfront.net/production/f0726d17-6b8d-4042-b343-34a7bd5e61e9.jpg" alt="bus">
+    <div class="contain">
+        <center>
+            <h1>
+                <u>Sign-Up Form</u>
+            </h1>
+
+            <form autocomplete="off" action="sign-up.php" method="post" onsubmit="return validate()">
+                <div class="container_signup">
+                    <div class="inputclass">
+                        username: <input type="text" name="usrnam_name" id="username_signup_id" required>
+                    </div>
+                    <div class="inputclass">
+                        email: <input type="email" name="mail_name" id="email_signup_id" required>
+                    </div>
+                    <div class="inputclass">
+                        contact no.: <input type="text" name="contct_name" id="contact_signup_id" maxlength="10" minlength="10"
+                            required>
+                    </div>
+                    <div class="inputclass">
+                        password: <input type="password" name="pass_name" id="pass-signup_id" required>
+                    </div>
+                    <div class="inputclass">
+                        confirm password: <input type="password" name="cpass_name" id="cpass_signup_id" required>
+                    </div>
+                </div>
+                <br><br>
+                <div class="btnn">
+                    <input class="btn_signup" type="submit" value="SUBMIT">
+                </div>
+
+            </form>
+        </center>
+    </div>
+</body>
+
+</html>
