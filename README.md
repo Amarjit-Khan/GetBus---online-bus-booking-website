@@ -22,7 +22,7 @@ The whole backend is coded in core PHP and MySql.
 * There are two databases, one for user details and one for bus details.
 ## Installation
 * Upload online_bus to the directory of your choice.
-* Import MySql Db file to your database software (E.g : PhpMyAdmin -> Create DB -> Import notes (2).sql )
+* Import MySql Db file to your database software (E.g : PhpMyAdmin -> Create DB -> Import the database )
 * Configure connection between your database and server.
 * Navigate to the installation in your browser ( E.g : http://localhost/online_bus )
 * Done :)
